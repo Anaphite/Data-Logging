@@ -46,5 +46,5 @@ Follow the python menu provided, all data will be written to the corresponding g
 * [Adafruit_CCS811_python](https://github.com/adafruit/Adafruit_CCS811_python) - VOC meter Python Package (depreciated - in need of updating)
 * [w1thermsensor](https://github.com/timofurrer/w1thermsensor) - Temperature meter Python Package
 
-##Authors
+## Authors
 * **Christopher Brown** - *28/08/2018* - [ChriisBrown](https://github.com/chriisbrown)
