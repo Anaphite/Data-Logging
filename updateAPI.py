@@ -1,16 +1,15 @@
 #script to install latest version from API repository from GitHub
-#script to install latest version from API repository from GitHub
+
 
 import os
 import time
-os.system
+
 #deletes old programs
 
 os.system("rm TGpub.py")
 os.system("rm VOCGpub.py")
 os.system("rm updateAPI.py")
-#os.system("rm updateAPI.py")
-#os.system("rm README.md")
+
 #clones repository
 os.system("git clone https://github.com/Anaphite/Data-Logging.git")
 time.sleep(10)
