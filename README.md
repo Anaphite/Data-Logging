@@ -1,5 +1,5 @@
 # Data Logging
-Data logging utilising the google sheets API with an interactive menu allowing for variation in tming length and frequency. The entire code is run off a raspberry pi from it's logging directory and updated from this git repository.
+Data logging utilising the google sheets API with an interactive menu allowing for variation in tming length and frequency. The entire code is run off a raspberry pi from its logging directory and updated from this git repository.
 
 ## Getting Started
 
@@ -40,7 +40,11 @@ python VOCGpub.py
 Follow the python menu provided, all data will be written to the corresponding google sheets document as well as a data file on the pi. 
 
 ## Updating Code
+Will update the code from this github repository, if anything is changed here it will be changed on the pi
 
+```
+python3 updateAPI.py
+```
 
 ## Built With
 * [Adafruit_CCS811_python](https://github.com/adafruit/Adafruit_CCS811_python) - VOC meter Python Package (depreciated - in need of updating)
