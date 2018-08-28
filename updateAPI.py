@@ -21,4 +21,4 @@ os.system("mv /home/pi/Temperature/API/updateAPI.py /home/pi/Temperature/updateA
 
 
 #removes the API directory now relavent contents have been removed
-os.system("rm -r -f /home/pi/Temperature/API")
+os.system("rm -r -f /home/pi/Temperature/Data-Logging")
