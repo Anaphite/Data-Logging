@@ -15,9 +15,9 @@ os.system("rm updateAPI.py")
 os.system("git clone https://github.com/Anaphite/Data-Logging.git")
 time.sleep(20)
 #moves files out of API file to where update.py stored
-os.system("mv /home/pi/Temperature/API/TGpub.py /home/pi/Temperature/TGpub.py")
-os.system("mv /home/pi/Temperature/API/VOCGpub.py /home/pi/Temperature/VOCGpub.py")
-os.system("mv /home/pi/Temperature/API/updateAPI.py /home/pi/Temperature/updateAPI.py")
+os.system("mv /home/pi/Temperature/Data-Logging/TGpub.py /home/pi/Temperature/TGpub.py")
+os.system("mv /home/pi/Temperature/Data-Logging/VOCGpub.py /home/pi/Temperature/VOCGpub.py")
+os.system("mv /home/pi/Temperature/Data-Logging/updateAPI.py /home/pi/Temperature/updateAPI.py")
 
 
 #removes the API directory now relavent contents have been removed
