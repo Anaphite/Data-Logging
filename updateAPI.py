@@ -13,7 +13,7 @@ os.system("rm updateAPI.py")
 #os.system("rm README.md")
 #clones repository
 os.system("git clone https://github.com/Anaphite/Data-Logging.git")
-time.sleep(20)
+time.sleep(10)
 #moves files out of API file to where update.py stored
 os.system("mv /home/pi/Temperature/Data-Logging/TGpub.py /home/pi/Temperature/TGpub.py")
 os.system("mv /home/pi/Temperature/Data-Logging/VOCGpub.py /home/pi/Temperature/VOCGpub.py")
