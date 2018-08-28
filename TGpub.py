@@ -4,7 +4,7 @@ Created on Wed Aug 15 12:12:21 2018
 
 @author: chris
 """
-#random comment
+#random comment 2
 import time
 import logging
 #from time import sleep
