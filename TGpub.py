@@ -96,9 +96,10 @@ while Menu != 'q':
 #logs any error due to not connecting to google sheets correctly
 
                 with open('Tempdata'+now.strftime("%Y-%m-%d %H-%M")+'.txt', 'a+') as d:
-                    data_string = ','.join(current_time, str(Temperature_1)
+                    data_entries = (current_time, str(Temperature_1)
                                            , str(Temperature_2), str(Temperature_3)
                                            , str(Temperature_4), str(Temperature_5))
+                    data_string = ','.join(data_entries)          
                     print(data_string)
                     print(data_string, file=d)
 #writes data to the backup datafile seperated by a comma
