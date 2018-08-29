@@ -16,7 +16,7 @@ os.system("git clone https://github.com/Anaphite/Data-Logging.git")
 time.sleep(10)
 #moves files out of API file to where update.py stored
 os.system("mv /home/pi/Vlog/Data-Logging/TGpub.py /home/pi/Vlog/TGpub.py")
-os.system("mv /home/pi/Vlog/Data-Logging/VOCGpub.py /home/pi/VlogVOCGpub.py")
+os.system("mv /home/pi/Vlog/Data-Logging/VOCGpub.py /home/pi/Vlog/VOCGpub.py")
 os.system("mv /home/pi/Vlog/Data-Logging/updateAPI.py /home/pi/Vlog/updateAPIZero.py")
 
 
