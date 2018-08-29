@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Aug 15 12:12:21 2018
-
 @author: chris
 """
 #random comment 2
@@ -122,13 +121,14 @@ while Menu != 'q':
 
                 time_2 = time.time()
                 if frequency-(time_2-time_1) <= 0:
-                    sleep(10)
+                    sleep((2*frequency)-(time_2-time_1))
+                    i += 2
 #Calculates how long the taking of data and writing to google and ensures the
 #frequency of readings doesn't drift. If less than 0 will check the reading
 #didn't take longer than the period
                 else:
                     sleep(frequency-(time_2-time_1))
-                i += 1
+                    i += 1
 
             except Exception as error_message:
                 logging.error('Error occurred in full code' + str(error_message))
