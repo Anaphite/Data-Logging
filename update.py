@@ -2,7 +2,7 @@ import os
 import time
 
 #removes old repository
-os.system("rm -r -f ../Data-Logging")
+os.system("rm -r -f /home/pi/Temperature/Data-Logging")
 
 #gets new repository
 
