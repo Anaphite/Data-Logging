@@ -1,6 +1,6 @@
 import os
 import time
-#test
+#test2
 #removes old repository
 os.system("rm -r -f Data-Logging")
 
