@@ -52,7 +52,7 @@ while Menu != 'q':
 #overwriting. Beyond 10 and google sheets will raise an error due to the sheet
 #being too long
         scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-        creds = ServiceAccountCredentials.from_json_keyfile_name('Client_temp.json', scope)
+        creds = ServiceAccountCredentials.from_json_keyfile_name('/home/pi/Temperature/Client_temp.json', scope)
         client = gspread.authorize(creds)
         sheet = client.open("Temperature Data").sheet1
 #Opens the correct sheet and correct tab, if the sheet is changed this needs
@@ -110,7 +110,7 @@ while Menu != 'q':
                         scope = ['https://spreadsheets.google.com/feeds',
                                  'https://www.googleapis.com/auth/drive']
                         creds = ServiceAccountCredentials.from_json_keyfile_name(
-                            'Client_temp.json', scope)
+                            '/home/pi/Temperature/Client_temp.json', scope)
                         client = gspread.authorize(creds)
                         sheet = client.open("Temperature Data").sheet1
                         print('Authenticating.....')
