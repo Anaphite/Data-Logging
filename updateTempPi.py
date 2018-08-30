@@ -1,6 +1,6 @@
 import os
 import time
-#test6
+#test7
 
 os.system("rm updateTempPi.py")
 #removes old repository
