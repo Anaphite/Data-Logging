@@ -23,7 +23,7 @@ passwords are provided in the drive
 
 ## Temperature Logger - logging data
 ```
-cd Temperature
+cd Temperature/Data-Logging
 
 python3 TGpub.py
 
@@ -40,10 +40,12 @@ python VOCGpub.py
 Follow the python menu provided, all data will be written to the corresponding google sheets document as well as a data file on the pi. 
 
 ## Updating Code
-Will update the code from this github repository, if anything is changed here it will be changed on the pi
+Will update the code from this github repository, if anything is changed here it will be changed on the pi.
+2 Programs updateTempPi.py for updating the Temperature Raspberry pi, updateVOCPi.py for the VOC Pi Zero.Runt he relevant one for the Pi you are dealing with.
 
 ```
-python3 updateAPI.py
+python3 updateTempPi.py
+python3 updateVOCPi.py
 ```
 
 ## Built With
