@@ -1,6 +1,6 @@
 import os
 import time
-#test4
+#test5
 
 os.system("rm update.py")
 #removes old repository
