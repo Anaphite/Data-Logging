@@ -1,6 +1,8 @@
 import os
 import time
 #test4
+
+os.system("rm update.py")
 #removes old repository
 os.system("rm -r -f Data-Logging")
 
