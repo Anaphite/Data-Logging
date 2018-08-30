@@ -127,13 +127,14 @@ while Menu != 'q':
 
 				t2 = time.time()
 				if frequency-(t2-t1) <= 0:
-					sleep(10)
+					sleep((2*frequency)-(t2-t1))
+					i += 2
 #Calculates how long the taking of data and writing to google and ensures the
 #frequency of readings doesn't drift. If less than 0 will check the reading
 #didn't take longer than the period
 				else:
 					sleep(frequency-(t2-t1))
-				i += 1
+					i += 1
 
 			except Exception as e:
 				logging.error('Error occurred in full code' + str(e))
