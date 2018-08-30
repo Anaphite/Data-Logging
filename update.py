@@ -1,6 +1,6 @@
 import os
 import time
-#test2
+#test3
 #removes old repository
 os.system("rm -r -f Data-Logging")
 
@@ -8,5 +8,5 @@ os.system("rm -r -f Data-Logging")
 
 os.system("git clone https://github.com/Anaphite/Data-Logging.git")
 
-os.system("mv Data-Logging/update.py ../update.py")
+os.system("mv /home/pi/Temperature/Data-Logging/update.py /home/pi/Temperature/update.py")
  
