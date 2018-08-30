@@ -2,7 +2,7 @@ import os
 import time
 #test6
 
-os.system("rm update.py")
+os.system("rm updateTempPi.py")
 #removes old repository
 os.system("rm -r -f Data-Logging")
 
@@ -10,5 +10,5 @@ os.system("rm -r -f Data-Logging")
 
 os.system("git clone https://github.com/Anaphite/Data-Logging.git")
 
-os.system("mv /home/pi/Temperature/Data-Logging/update.py /home/pi/Temperature/update.py")
+os.system("mv /home/pi/Temperature/Data-Logging/updateTempPi.py /home/pi/Temperature/updateTempPi.py")
  
