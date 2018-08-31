@@ -64,7 +64,7 @@ while Menu != 'q':
 #overwriting. Beyond 10 and google sheets will raise an error due to the sheet
 #being too long
 		scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
-		creds = ServiceAccountCredentials.from_json_keyfile_name('Client_secret.json', scope)
+		creds = ServiceAccountCredentials.from_json_keyfile_name('/home/pi/Vlog/voc_cred.json', scope)
 		client = gspread.authorize(creds)
 		sheet = client.open("VOC Data").sheet1
 #Opens the correct sheet and correct tab, if the sheet is changed this needs
@@ -116,7 +116,7 @@ while Menu != 'q':
 				if i % (5*6)/frequency == 0:
 					try:
 						scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
-						creds = ServiceAccountCredentials.from_json_keyfile_name('Client_secret.json', scope)
+						creds = ServiceAccountCredentials.from_json_keyfile_name('/home/pi/Vlog/voc_cred.json', scope)
 						client = gspread.authorize(creds)
 						sheet = client.open("VOC Data").sheet1
 #reauthenticates the code so that google does not block the sheet request
